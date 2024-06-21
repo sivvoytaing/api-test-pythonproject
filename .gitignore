@@ -1,0 +1,20 @@
+### Adding to .gitignore
+
+To keep your repository clean and exclude unnecessary files from version control, you should include the following entries in your `.gitignore` file:
+
+```plaintext
+# Python related
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# pytest cache
+.pytest_cache
+
+# environment variables
+.env
+
+# Virtual environment
+venv/
+dogapienv/
